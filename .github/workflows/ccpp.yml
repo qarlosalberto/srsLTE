@@ -8,7 +8,7 @@ jobs:
           compiler: [gcc, clang]
     runs-on: ubuntu-18.04
     container:
-      image: ubuntu:18.0.4
+      image: ubuntu:18.4
     steps:
       - uses: actions/checkout@v1
       - name: Build srsLTE on x86 Ubuntu 18.04
@@ -23,7 +23,7 @@ jobs:
           compiler: [gcc, clang]
     runs-on: ubuntu-16.04
     container:
-      image: ubuntu:16.0.4
+      image: ubuntu:16.4
     steps:
       - uses: actions/checkout@v1
       - name: Build srsLTE on x86 Ubuntu 16.04
